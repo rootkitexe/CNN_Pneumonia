@@ -1,19 +1,35 @@
-Chest X-Ray Pneumonia Classifier
+# Chest X-Ray Pneumonia Classifier
 
 Overview
+
 This repository contains the source code for a convolutional neural network (CNN) model trained to classify chest X-ray images into two categories: normal and pneumonia. The model is built using TensorFlow/Keras and is trained on the Chest X-Ray Images dataset.
 
-Features
+## Features
+
+
 Train a CNN model to classify chest X-ray images.
+
 Evaluate the model's performance using accuracy metrics.
+
 Preprocessing scripts for data augmentation and normalization.
-Dataset
+
+## Dataset
+
 The dataset used for training and evaluation is the Chest X-Ray Images dataset, which can be found in the file itself. The dataset contains X-ray images labeled as normal or pneumonia.
 
-Requirements
+## Requirements
 Python 3.x
-TensorFlow
+
+TensorFlow,
 Keras
+
 OpenCV
-NumPy
+
+NumPy,
 Matplotlib
+## Steps
+1. Clone the Repo
+2. Train the model
+3. Evaluate the model
+4. Use the model for prediction
+
